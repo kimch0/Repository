@@ -1,0 +1,64 @@
+body{
+    background-color: #CAD9F4;
+}
+#main{
+    background-color: white;
+}
+h1{
+    color: #3E5175;
+}
+h2{
+    font-size: 1.5em;
+    color: #3E5175;
+}
+h3{
+    color: #3E5175;
+}
+li{
+    font-size: 1.1em;
+    font-weight: bolder;
+    color: #616875;
+}
+p{
+    font-size: 1.2em;
+    color: #616875;
+    
+}
+#tabla{
+    margin: 0%;
+    width: 100%;
+}
+td{
+    font-size: 1.1em;
+    color: #616875;
+    font-weight: bolder;
+    
+}
+#info{
+    padding: 0;
+
+}
+#img{
+    border: 2px solid transparent;
+    border-radius: 20%;
+    filter:grayscale();
+    transition: filter 0.4s ease-in-out;
+}
+#img:hover{
+    cursor: pointer;
+    filter: none;
+}
+.popover{
+    border: 2px solid;
+    font-weight: bolder;
+    font-size: 1.1em;
+    color: #CAD9F4;
+}
+
+/* 
+#616875
+#83ABF7
+#CAD9F4
+#3E5175
+#A1ACC2
+*/

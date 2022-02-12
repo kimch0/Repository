@@ -52,6 +52,9 @@ p{
 #flag{
     width: 3%;
 }
+#flag:hover{
+    cursor: pointer;
+}
 .width{
     width: 50%;
 }

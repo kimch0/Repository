@@ -3,8 +3,9 @@ body{
 }
 #main{
     background-color: white;
+    padding-bottom: 5%;
 }
-h1{
+#name{
     color: #3E5175;
 }
 h2{
@@ -15,7 +16,7 @@ h3{
     color: #3E5175;
 }
 li{
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: bolder;
     color: #616875;
 }
@@ -24,29 +25,35 @@ p{
     color: #616875;
     
 }
-#tabla{
-    margin: 0%;
-    width: 100%;
-}
-td{
-    font-size: 1.1em;
+
+.row{
+    font-size: 1em;
     color: #616875;
     font-weight: bolder;
-    
 }
+/* #projectRow{
+    margin-right: 0;
+} */
+
 #info{
     padding: 0;
 
 }
-#img{
+#tool{
     border: 2px solid transparent;
     border-radius: 20%;
     filter:grayscale();
     transition: filter 0.4s ease-in-out;
 }
-#img:hover{
+#tool:hover{
     cursor: pointer;
     filter: none;
+}
+#flag{
+    width: 3%;
+}
+.width{
+    width: 50%;
 }
 .popover{
     border: 2px solid;
@@ -54,6 +61,25 @@ td{
     font-size: 1.1em;
     color: #CAD9F4;
 }
+@media only screen and (max-width: 768px) {
+    
+   .width{
+       width: 100%;
+   }
+   h2{
+       text-align: center;
+   }
+    #flag{
+        width: 5%;
+    }
+    
+    
+  }
+  @media only screen and (max-width: 768px) {
+      #flag{
+          width: 7%;
+      }
+  }
 
 /* 
 #616875

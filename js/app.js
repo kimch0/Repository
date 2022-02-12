@@ -1,7 +1,7 @@
 function changeLanguage(lang) {
    
     if(lang == 'en'){
-       location.href= "/en/index.html";
+       location.href= "/Repository/en/index.html";
     }else if(lang == 'es'){
         location.href="../index.html"
     }

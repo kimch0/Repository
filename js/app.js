@@ -3,7 +3,7 @@ function changeLanguage(lang) {
     if(lang == 'en'){
        location.href= "/Repository/en/index.html";
     }else if(lang == 'es'){
-        location.href="/index.html"
+        location.href="/Repository/index.html"
     }
     return false
 }

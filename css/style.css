@@ -1,88 +1,89 @@
-body{
-    background-color: #CAD9F4;
+body {
+  background-color: #cad9f4;
 }
-#main{
-    background-color: white;
-    padding-bottom: 5%;
+#main {
+  background-color: white;
+  padding-bottom: 5%;
 }
-#name{
-    color: #3E5175;
+#name {
+  color: #3e5175;
 }
-h2{
-    font-size: 1.5em;
-    color: #3E5175;
+h2 {
+  font-size: 1.5em;
+  color: #3e5175;
 }
-h3{
-    color: #3E5175;
+h3 {
+  color: #3e5175;
 }
-li{
-    font-size: 1em;
-    font-weight: bolder;
-    color: #616875;
+li {
+  font-size: 1em;
+  font-weight: bolder;
+  color: #616875;
 }
-p{
-    font-size: 1.2em;
-    color: #616875;
-    
+p {
+  font-size: 1.2em;
+  color: #616875;
 }
 
-.row{
-    font-size: 1em;
-    color: #616875;
-    font-weight: bolder;
+.row {
+  font-size: 1em;
+  color: #616875;
+  font-weight: bolder;
 }
-/* #projectRow{
-    margin-right: 0;
-} */
 
-#info{
-    padding: 0;
+#info {
+  padding: 0;
+}
+#tool {
+  border: 2px solid transparent;
+  border-radius: 20%;
+  filter: grayscale();
+  transition: filter 0.4s ease-in-out;
+}
+#tool:hover {
+  cursor: pointer;
+  filter: none;
+}
+#flag {
+  width: 3%;
+}
+#flag:hover {
+  cursor: pointer;
+}
+.width {
+  width: 50%;
+}
+.popover {
+  border: 2px solid;
+  font-weight: bolder;
+  font-size: 1.1em;
+  color: #cad9f4;
+}
 
+.img-thumbnail {
+  transition: 0.5s ease;
 }
-#tool{
-    border: 2px solid transparent;
-    border-radius: 20%;
-    filter:grayscale();
-    transition: filter 0.4s ease-in-out;
+.img-thumbnail:hover {
+  opacity: 0.5;
+  filter: drop-shadow(8px 8px 10px #3e5175);
 }
-#tool:hover{
-    cursor: pointer;
-    filter: none;
-}
-#flag{
-    width: 3%;
-}
-#flag:hover{
-    cursor: pointer;
-}
-.width{
-    width: 50%;
-}
-.popover{
-    border: 2px solid;
-    font-weight: bolder;
-    font-size: 1.1em;
-    color: #CAD9F4;
+
+@media only screen and (max-width: 768px) {
+  .width {
+    width: 100%;
+  }
+  h2 {
+    text-align: center;
+  }
+  #flag {
+    width: 5%;
+  }
 }
 @media only screen and (max-width: 768px) {
-    
-   .width{
-       width: 100%;
-   }
-   h2{
-       text-align: center;
-   }
-    #flag{
-        width: 5%;
-    }
-    
-    
+  #flag {
+    width: 7%;
   }
-  @media only screen and (max-width: 768px) {
-      #flag{
-          width: 7%;
-      }
-  }
+}
 
 /* 
 #616875
